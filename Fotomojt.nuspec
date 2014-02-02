@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>AlteKamereren.Fotomojt</id>
+    <version>0.1</version>
+    <title>Fotomojt</title>
+    <authors>Sam</authors>
+    <owners>Sam</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Fotomojt</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright></copyright>
+    <tags>fotomojt alte kamereren altekamereren</tags>
+  </metadata>
+</package>
