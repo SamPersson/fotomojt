@@ -72,13 +72,13 @@ namespace Fotomojt
         protected override void Initialize()
         {
             Window.AllowUserResizing = true;
-            Window.ClientSizeChanged += (sender, args) =>
+            /*Window.ClientSizeChanged += (sender, args) =>
             {
                 var field = typeof(OpenTKGameWindow)
                     .GetField("updateClientBounds", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
                 if (field != null)
                     field.SetValue(Window, false);
-            };
+            };*/
 
             Console.WriteLine(GraphicsDevice.DisplayMode.Width);
             Console.WriteLine(GraphicsDevice.DisplayMode.Height);
