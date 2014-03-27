@@ -82,12 +82,12 @@ namespace Fotomojt
 
             Console.WriteLine(GraphicsDevice.DisplayMode.Width);
             Console.WriteLine(GraphicsDevice.DisplayMode.Height);
-
+            /*
             graphics.IsFullScreen = true;
             graphics.PreferredBackBufferWidth = GraphicsDevice.DisplayMode.Width;
             graphics.PreferredBackBufferHeight = GraphicsDevice.DisplayMode.Height;
             graphics.ApplyChanges();
-
+            */
             base.Initialize();
         }
 
