@@ -1,0 +1,7 @@
+[submodule "opentk"]
+	path = opentk
+	url = https://github.com/dellis1972/opentk.git
+[submodule "MonoGame"]
+	path = MonoGame
+	url = https://github.com/dellis1972/MonoGame.git
+	branch = raspberrypi
